@@ -2,7 +2,7 @@ const express = require("express");
 const multer = require("multer");
 const { lendGame } = require("../controllers/LendingGame/LendGamePost");
 const { fetchLentGames, fetchAllLentGames } = require("../controllers/LendingGame/FetchLendGameGet");
-const authenticate = require("../middlewares/lendingMiddleware");
+const authenticate = require("../Middlewares/lendingMiddleware");
 
 const router = express.Router();
 
